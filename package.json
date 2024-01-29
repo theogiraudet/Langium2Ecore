@@ -1,0 +1,26 @@
+{
+  "name": "langium2ecore",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "langium2ecore": "./bin/langium2ecore.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "theogiraudet",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "commander": "^11.1.0",
+    "crossecore": "^0.3.0",
+    "fs-extra": "^11.2.0",
+    "langium": "^2.1.3"
+  }
+}
